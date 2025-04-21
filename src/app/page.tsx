@@ -10,10 +10,10 @@ const HomePage = () => {
       <section className="relative z-10 py-24 flex-grow">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative">
-            {/* CORNER DECARATION */}
+            {/* corner bracket */}
             <div className="absolute -top-10 left-0 w-40 h-40 border-l-2 border-t-2" />
 
-            {/* LEFT SIDE CONTENT */}
+            {/* left content */}
             <div className="lg:col-span-7 space-y-8 relative">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                 <div>
@@ -31,7 +31,7 @@ const HomePage = () => {
                 </div>
               </h1>
 
-              {/* SEPERATOR LINE */}
+              {/* seperator  */}
               <div className="h-px w-full bg-gradient-to-r from-primary via-secondary to-primary opacity-50"></div>
 
               <p className="text-xl text-muted-foreground w-2/3">
@@ -39,7 +39,7 @@ const HomePage = () => {
                 designed just for you
               </p>
 
-              {/* STATS */}
+              {/* stats */}
               <div className="flex items-center gap-10 py-6 font-mono">
                 <div className="flex flex-col">
                   <div className="text-2xl text-primary">500+</div>
@@ -57,7 +57,7 @@ const HomePage = () => {
                 </div>
               </div>
 
-              {/* BUTTON */}
+              {/* button */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <Button
                   size="lg"
@@ -72,9 +72,9 @@ const HomePage = () => {
               </div>
             </div>
 
-            {/* RIGHT SIDE CONTENT */}
+            {/* right  content */}
             <div className="lg:col-span-5 relative">
-              {/* CORNER PIECES */}
+              {/* corner pieces */}
               <div className="absolute -inset-4 pointer-events-none">
                 <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-border" />
                 <div className="absolute top-0 right-0 w-16 h-16 border-r-2 border-t-2 border-border" />
@@ -82,7 +82,7 @@ const HomePage = () => {
                 <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-border" />
               </div>
 
-              {/* IMAGE CONTANINER */}
+              {/* image contaniner */}
               <div className="relative aspect-square max-w-lg mx-auto">
                 <div className="relative overflow-hidden rounded-lg bg-cyber-black">
                   <img
@@ -91,10 +91,10 @@ const HomePage = () => {
                     className="size-full object-cover object-center"
                   />
 
-                  {/* SCAN LINE */}
+                  {/* scan line */}
                   <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),var(--cyber-glow-primary)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
 
-                  {/* DECORATIONS ON TOP THE IMAGE */}
+                  {/* decorations on top the image */}
                   <div className="absolute inset-0 pointer-events-none">
                     <div className="absolute top-1/3 left-1/3 w-1/3 h-1/3 border border-primary/40 rounded-full" />
 
@@ -108,7 +108,7 @@ const HomePage = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
                 </div>
 
-                {/* TERMINAL OVERLAY */}
+                {/* terminal overlay */}
                 <TerminalOverlay />
               </div>
             </div>
