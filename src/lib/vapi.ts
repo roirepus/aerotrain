@@ -1,3 +1,4 @@
 import Vapi from "@vapi-ai/web";
+import config from "../../lib/config";
 
-export const vapi = new Vapi(process.env.NEXT_PUBLIC_KEY_API_KEY!);
+export const vapi = new Vapi(config.env.vapi.apiKey);
